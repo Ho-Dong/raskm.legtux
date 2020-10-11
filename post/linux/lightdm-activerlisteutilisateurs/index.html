@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+    <title>Raskm</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="http://raskm.legtux.org/favicon.ico">
+    <link rel="canonical" href="http://raskm.legtux.org">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="http://raskm.legtux.org">Raskm</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/post/code/">
+                                    
+                                    <span>Code</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/linux/">
+                                    
+                                    <span>Linux</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/windows/">
+                                    
+                                    <span>Windows</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/retro/">
+                                    
+                                    <span>Retro</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/android/">
+                                    
+                                    <span>Android</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/privacy/">
+                                    
+                                    <span>Vie privée</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/about">
+                                    
+                                    <span>Contact</span>&nbsp;&nbsp;| 
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>[LightDM] Activer la liste des utilisateurs - Sun, Oct 11, 2020</h1>
+    </div>
+    <p class="lead">Guide pour activer la liste déroulante des utilisateurs dans LightDM</p>
+    
+
+<h4 id="ce-guide-a-pour-but-d-expliquer-comment-activer-la-liste-des-utilisateurs-dans-lightdm">Ce guide a pour but d&rsquo;expliquer comment activer la liste des utilisateurs dans LightDM.</h4>
+
+<p>Par défaut, LightDM oblige l&rsquo;utilisateur à saisir son login et mot de passe.</p>
+
+<p>Cela peut être modifié en permettant à l&rsquo;utilisateur de choisir sa session dans un menu déroulant.</p>
+
+<p>Dans un premier temps, il vous faut créer un fichier de configuration personnalisé de LightDM à l&rsquo;emplacement suivant :</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano /etc/lightdm/lightdm.conf.d/01_my.conf 
+* Le fichier peut être nommé comme vous le souhaitez.</code></pre></div>
+
+<p>Une fois dans le fichier, ajouter les lignes suivantes :</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>Seat:*<span style="color:#f92672">]</span>
+greeter-hide-users<span style="color:#f92672">=</span>false</code></pre></div>
+
+<p>Redémarrez votre ordinateur pour voir les changements.</p>
+
+    <h4><a href="http://raskm.legtux.org">Retour à l&#39;accueil</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+
+    Aucun cookie ou tracker en tout genre n&rsquo;est installé sur ce site web, ne pistant donc pas ses utilisateurs. | 
+
+&copy; 
+<a href="https://github.com/Raskm" target="_blank">
+    AGN Axel
+</a>
+<span id="thisyear">2020</span>
+
+    | Hébergé gracieusement par <a href="https://www.legtux.org/">Legtux</a>
+
+
+        | Propulsé par <a href="//gohugo.io" target="_blank">Hugo</a>
+</p>
+    <p class="text-center">
+        <a href="https://www.facebook.com/axel.agnan.5">Facebook</a> 
+        
+        <a href="https://www.linkedin.com/in/axelagnan/">Linkedin</a> 
+        <a href="https://github.com/Raskm">GitHub</a> 
+        
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></html>

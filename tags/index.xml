@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Raskm</title>
+    <link>http://raskm.legtux.org/tags/</link>
+    <description>Recent content in Tags on Raskm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://raskm.legtux.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeBlocks</title>
+      <link>http://raskm.legtux.org/tags/codeblocks/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/codeblocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>http://raskm.legtux.org/tags/code/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icones</title>
+      <link>http://raskm.legtux.org/tags/icones/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/icones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>http://raskm.legtux.org/tags/index/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lightDM</title>
+      <link>http://raskm.legtux.org/tags/lightdm/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/lightdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://raskm.legtux.org/tags/linux/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>http://raskm.legtux.org/tags/themes/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wxWidget</title>
+      <link>http://raskm.legtux.org/tags/wxwidget/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/wxwidget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xfce</title>
+      <link>http://raskm.legtux.org/tags/xfce/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/tags/xfce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

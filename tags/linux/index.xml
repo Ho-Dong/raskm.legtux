@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Raskm</title>
+    <link>http://raskm.legtux.org/tags/linux/</link>
+    <description>Recent content in linux on Raskm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://raskm.legtux.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[LightDM] Activer la liste des utilisateurs</title>
+      <link>http://raskm.legtux.org/post/linux/lightdm-activerlisteutilisateurs/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/linux/lightdm-activerlisteutilisateurs/</guid>
+      <description>Ce guide a pour but d&amp;rsquo;expliquer comment activer la liste des utilisateurs dans LightDM. Par défaut, LightDM oblige l&amp;rsquo;utilisateur à saisir son login et mot de passe.
+Cela peut être modifié en permettant à l&amp;rsquo;utilisateur de choisir sa session dans un menu déroulant.
+Dans un premier temps, il vous faut créer un fichier de configuration personnalisé de LightDM à l&amp;rsquo;emplacement suivant :
+nano /etc/lightdm/lightdm.conf.d/01_my.conf * Le fichier peut être nommé comme vous le souhaitez.</description>
+    </item>
+    
+  </channel>
+</rss>

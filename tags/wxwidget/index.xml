@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wxWidget on Raskm</title>
+    <link>http://raskm.legtux.org/tags/wxwidget/</link>
+    <description>Recent content in wxWidget on Raskm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://raskm.legtux.org/tags/wxwidget/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[DEBIAN] Utiliser la bibliothèque graphique wxWidget dans Code::Blocks</title>
+      <link>http://raskm.legtux.org/post/code/wxwidget-codeblocks/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/code/wxwidget-codeblocks/</guid>
+      <description>Ce guide a pour but d&amp;rsquo;expliquer comment installer la bibliothèque wxWidget sur son système Debian et de l&amp;rsquo;utiliser ensuite dans l&amp;rsquo;environnement de développement Code::Blocks. Dans un premier temps, mettre à jour la liste des paquets disponibles : apt get update
+Puis installer le compilateur : apt install build-essential
+Et enfin, installer la librairie wxgtk3.0 apt install libwxgtk3.0-dev
+Créer un fichier nommé testwx.cpp et y inscrire le hello world de wxWidget : // wxWidgets &amp;#34;Hello world&amp;#34; Program // For compilers that support precompilation, includes &amp;#34;wx/wx.</description>
+    </item>
+    
+  </channel>
+</rss>

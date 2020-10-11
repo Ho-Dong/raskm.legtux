@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on Raskm</title>
+    <link>http://raskm.legtux.org/tags/index/</link>
+    <description>Recent content in index on Raskm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://raskm.legtux.org/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ressources de la catégorie Android</title>
+      <link>http://raskm.legtux.org/post/android/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/android/</guid>
+      <description>Liste des articles en lien avec Android :</description>
+    </item>
+    
+    <item>
+      <title>Ressources de la catégorie Code</title>
+      <link>http://raskm.legtux.org/post/code/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/code/</guid>
+      <description>Liste des articles en lien avec le code :</description>
+    </item>
+    
+    <item>
+      <title>Ressources de la catégorie Linux</title>
+      <link>http://raskm.legtux.org/post/linux/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/linux/</guid>
+      <description>Liste des articles en lien avec Linux :</description>
+    </item>
+    
+    <item>
+      <title>Ressources de la catégorie Rétro</title>
+      <link>http://raskm.legtux.org/post/retro/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/retro/</guid>
+      <description>Liste des articles en lien avec le monde rétro :</description>
+    </item>
+    
+    <item>
+      <title>Ressources de la catégorie Vie Privée</title>
+      <link>http://raskm.legtux.org/post/privacy/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/privacy/</guid>
+      <description>Liste des articles en lien avec la vie privée :</description>
+    </item>
+    
+    <item>
+      <title>Ressources de la catégorie Windows</title>
+      <link>http://raskm.legtux.org/post/windows/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/windows/</guid>
+      <description>Liste des articles en lien avec Windows :</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>http://raskm.legtux.org/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

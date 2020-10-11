@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>themes on Raskm</title>
+    <link>http://raskm.legtux.org/tags/themes/</link>
+    <description>Recent content in themes on Raskm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://raskm.legtux.org/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[XFCE] Installer des thèmes et des packs d&#39;icones</title>
+      <link>http://raskm.legtux.org/post/linux/xfce-installerthemes/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://raskm.legtux.org/post/linux/xfce-installerthemes/</guid>
+      <description>Ce guide a pour but d&amp;rsquo;expliquer comment installer des thèmes et des packs d&amp;rsquo;icones à son environnement de bureau XFCE. Un bon site porposant des ressources pour XFCE :
+ &amp;gt; Pling (https://www.pling.com/s/XFCE/browse)  Pour procéder à l&amp;rsquo;installation de thèmes et de pack d&amp;rsquo;icones, il est possible de créer deux dossiers dans son dossier /home.
+XFCE ira les chercher automatiquement (Ici exemple avec l&amp;rsquo;utilisateur toto) :
+ &amp;gt; /home/toto/.icons &amp;gt; /home/toto/.</description>
+    </item>
+    
+  </channel>
+</rss>
